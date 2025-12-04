@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Xebia AI Toolbox"
+title = "Pipeline Wiki"
 
 # Language settings
 contentDir = "content/en"
@@ -64,8 +64,8 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-title = "Xebia AI Toolbox"
-description = "AI empowered workflows to make you more productive"
+title = "Xebia Pipeline Wiki"
+description = "GitHub Pipelines to make you more productive"
 
 [markup]
   [markup.goldmark]
@@ -86,7 +86,7 @@ description = "AI empowered workflows to make you more productive"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "Xebia 2023"
+copyright = "Xebia 2025"
 #privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -111,9 +111,9 @@ version = "0.0"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/xebia/ai-toolbox"
+github_repo = "https://github.com/woeterman94/pipeline-wiki"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/xebia/ai-toolbox"
+github_project_repo = "https://github.com/woeterman94/pipeline-wiki"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -169,7 +169,7 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/xebia/ai-toolbox"
+  url = "https://github.com/woeterman94/pipeline-wiki"
   icon = "fab fa-github"
   desc = "Contribute to this project!"
 
