@@ -1,4 +1,14 @@
-```name: Dependabot auto-merge
+---
+title: Enable Auto Merge for Dependabot
+weight: 5
+categories: [Automation]
+tags: [GitHub Actions, Dependabot, CI/CD]
+description: >
+  Automatically merge Dependabot pull requests using GitHub Actions
+---
+
+```yaml
+name: Dependabot auto-merge
 on:
     pull_request:
         types: [opened, reopened]
@@ -26,4 +36,5 @@ jobs:
               run: gh pr merge --auto --rebase "$PR_URL"
               env:
                   PR_URL: ${{github.event.pull_request.html_url}}
-                  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}```
+                  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+```
