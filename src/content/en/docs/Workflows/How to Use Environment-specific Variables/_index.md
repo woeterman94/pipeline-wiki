@@ -1,6 +1,6 @@
 ---
 title: How to Use Environment-specific Variables in GitHub Actions Workflows
-weight: 5
+weight: 6
 categories: [Automation]
 tags: [GitHub Actions, variables, secrets, environments, CI/CD]
 description: >
