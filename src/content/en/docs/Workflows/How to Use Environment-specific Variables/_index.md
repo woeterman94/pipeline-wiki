@@ -1,3 +1,12 @@
+---
+title: How to Use Environment-specific Variables in GitHub Actions Workflows
+weight: 5
+categories: [Automation]
+tags: [GitHub Actions, variables, secrets, environments, CI/CD]
+description: >
+  How to configure your GitHub Actions workflows so that variables are automatically set based on the environment you deploy to.
+---
+
 # How to Use Environment-specific Variables in GitHub Actions Workflows
 
 When working with multiple environments like **development (dev)**, **acceptance (acc)**, and **production (prod)**, it's common to need different configuration values for each. GitHub Actions provides a powerful way to set up environment-specific variables using **GitHub Environments** and environment-scoped variables/secrets.
